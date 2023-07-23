@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibbleBotics.Core", "NibbleBotics.Core\NibbleBotics.Core.csproj", "{59AE4B10-6E9E-49BD-B08B-2956DBA2440A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibbleBotics.Tests", "NibbleBotics.Tests\NibbleBotics.Tests.csproj", "{17AE1223-BB80-4B3D-83A0-1B7B1903DF03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59AE4B10-6E9E-49BD-B08B-2956DBA2440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AE4B10-6E9E-49BD-B08B-2956DBA2440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AE4B10-6E9E-49BD-B08B-2956DBA2440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AE4B10-6E9E-49BD-B08B-2956DBA2440A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AE1223-BB80-4B3D-83A0-1B7B1903DF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AE1223-BB80-4B3D-83A0-1B7B1903DF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AE1223-BB80-4B3D-83A0-1B7B1903DF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AE1223-BB80-4B3D-83A0-1B7B1903DF03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
