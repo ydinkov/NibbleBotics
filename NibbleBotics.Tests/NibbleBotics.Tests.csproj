@@ -12,8 +12,10 @@
 
     <ItemGroup>
         <PackageReference Include="FluentAssertions" Version="6.11.0" />
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0"/>
-        <PackageReference Include="xunit" Version="2.4.2"/>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+        <PackageReference Include="ScottPlot" Version="5.0.6-beta" />
+        <PackageReference Include="ScottPlot.WinForms" Version="5.0.6-beta" />
+        <PackageReference Include="xunit" Version="2.4.2" />
         <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
             <PrivateAssets>all</PrivateAssets>
@@ -25,7 +27,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NibbleKinematics.Abstracts\NibbleKinematics.Abstracts.csproj" />
       <ProjectReference Include="..\NibbleBotics.Core\NibbleBotics.Core.csproj" />
     </ItemGroup>
 

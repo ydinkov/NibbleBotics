@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Numerics;
 
 namespace NibbleKinematics;
 
@@ -10,6 +11,8 @@ public static class MathExtensions
     public static float RadToDeg(float radians) => (180f / Convert.ToSingle(Math.PI) ) * radians;
     public static float DegToRad(float degrees) => degrees * (Convert.ToSingle(Math.PI) / 180f);
     
+    public static float Max(this Vector3 v) => Math.Max(Math.Max(v.X, v.Y), v.Z);
+
     public static Vector3 ToPitchYawhRoll(this Quaternion q)
     {
         Vector3 output;
